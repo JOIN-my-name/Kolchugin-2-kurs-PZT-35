@@ -1,0 +1,66 @@
+.cards {
+    padding: 60px 0;
+}
+.card__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E4DCCF;
+    border-radius: 5px;
+    padding: 30px 20px;
+    max-width: 300px;
+}
+  
+.info__card {
+    text-align: center;
+}
+.info__card-title {
+    color: #EA5455;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.info__card-text {
+    line-height: 165%;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+  
+.card__item-image {
+    max-width: 200px;
+}
+.card__item-image img {
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+  
+.card__item-choose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+}
+.card__item-choose select {
+    width: 50%;
+    margin-bottom: 15px;
+    background-color: #EA5455;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+}
+  
+.card__item-button {
+    padding: 20px 45px;
+    background-color: transparent;
+    border: 1px solid #EA5455;
+    font-weight: bold;
+    color: #EA5455;
+    transition: all 0.3s ease-out;
+}
+.card__item-button:hover {
+    background-color: #EA5455;
+    color: white;
+}

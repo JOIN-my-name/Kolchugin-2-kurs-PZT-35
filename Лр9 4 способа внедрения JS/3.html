@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Страница с кнопкой</title>
+  <script>
+    function calculate() {
+      var arr = [5, 8, 3, 6, 1, 7, 4];
+      var oddCount = 0;
+      var oddSum = 0;
+
+      for (var i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 !== 0) {
+          oddCount++;
+          oddSum += arr[i];
+        }
+      }
+
+      document.getElementById("oddCount").innerHTML = "Number of odd elements: " + oddCount;
+      document.getElementById("oddSum").innerHTML = "Sum of odd elements: " + oddSum;
+    }
+  </script>
+</head>
+<body>
+  <button onclick="calculate()">Calculate</button>
+  <div id="oddCount"></div>
+  <div id="oddSum"></div>
+</body>
+</html>

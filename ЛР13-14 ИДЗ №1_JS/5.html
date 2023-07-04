@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script>
+      function showResults() {
+        var S1 = 'Кольчугин';
+        var S2 = 'Адрес';
+
+        var S2Length = S2.length; 
+
+        var reversedS1 = S1.split('').reverse().join(''); 
+
+        var lowercaseS2 = S2.toLowerCase();
+
+        document.getElementById('output1').innerText = S2Length;
+        document.getElementById('output2').innerText = reversedS1;
+        document.getElementById('output3').innerText = lowercaseS2;
+      }
+    </script>
+  </head>
+  <body>
+    
+    <button onclick="showResults()">Показать результаты</button>
+
+    <p id="output1"></p>
+    <p id="output2"></p>
+    <p id="output3"></p>
+  </body>
+</html>

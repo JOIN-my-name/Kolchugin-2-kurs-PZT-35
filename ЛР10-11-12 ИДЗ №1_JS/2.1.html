@@ -1,0 +1,48 @@
+<head>
+    <p>Кольчугин</p>
+    <p>Глеб</p>
+    <p>Анатольевич</p>
+</head>
+ <body>
+  <p><a href="https://www.youtube.com">youtube</a></p>
+ </body>
+</html>
+ <body>
+  <p><img src="images.jpeg" alt="фото"></p>
+ </body>
+</html>
+<head>
+  <title>Изменение стилей</title>
+  <style>
+    body {
+      background-image: url('20190502_Newhaven_to_Dieppe_Ferry_3.jpg');
+    }
+
+    p {
+      font-family: Arial;
+      font-size: 11px;
+      color: red;
+    }
+
+    a {
+      color: green;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <p>Пример текста</p>
+  <a href="https://m.vk.com/feed"></a>
+  
+  <script>
+    function changeStyles() {
+      document.body.style.backgroundImage = "url('path/to/new_image.jpg')";
+      document.getElementsByTagName("p")[0].style.fontFamily = "Arial";
+      document.getElementsByTagName("p")[0].style.fontSize = "11px";
+      document.getElementsByTagName("p")[0].style.color = "red";
+      document.getElementsByTagName("a")[0].style.color = "green";
+      document.getElementsByTagName("a")[0].style.textDecoration = "none";
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">   
+    <head>  
+        <meta charset="UTF-8">
+        <title>Портфолио</title>
+          
+    </head>
+
+    <Body>
+    <h1 style="font-size: 26px; font-family: Times New Roman; text-align: center;">Моё резюме</h1>
+    
+    <div style="display: flex; flex-direction: row; ">
+        <img alt="Me" src="Me.jpg" style="width: 400px; height: 400px; margin: 0px 20px 0px 10px">  
+        
+         <div style="display: flex; flex-direction: column;">
+            <h1 style="font-size: 26px; font-family: Times New Roman; text-align: center; display: flex; flex-direction: column; ">Привет!</h1>
+            <p style="font-size: 14px; font-family: Times New Roman; text-align: justify; display: flex;">Меня зовут Глеб. Мне 18 лет Учусь я на 3 курсе, в группе ПЗТ-35, Гродненского государственного политехнического колледжа. Родилась я в городе Слоним. В свободное время я играю в компьютерные игры. Также в свободное от учёбы время я смотрю сериалы. на данный момент.</p>
+         <p>Мои увлечения</p>
+         <ul style="font-size: 14px; font-family: Times New Roman;text-align: left;">
+            <li>Сериалы</li>
+            <li>Игры</li>
+        </ul>
+        <p>Мои предпочтения в еде</p>
+        <ul style="font-size: 14px; font-family: Times New Roman;text-align: left;">
+            <li>Жареные пельмени</li>
+            <li>Пицца</li>
+            <li>Шаурма</li>
+         </ul>
+         <p style="font-size: 14px; font-family: Times New Roman; text-align: justify; display: flex;">Иногда я люблю пошутить. Больше всего оценивает мой юмор мама, спасибо ей за это. Я не единственный ребёнок в семье, у меня есть младший брат, который младше меня на 7 лет.</p>
+        </div>
+    </div>
+    
+    <!-- див для видео и аудио-->
+<div style="display: flex; flex-direction: row; justify-content: space-around;">
+    <div style="display: flex; flex-direction: column; align-items: center; font-family: 'Times New Roman';">
+        <h1>Мои любимые треки:</h1>
+        <p><i>Chemical Overeaction Compound Fracture_</i></p>
+        <audio src="Will_Wood_and_the_Tapeworms_-_Chemical_Overeaction_Compound_Fracture_(musmore.com).mp3" controls>Cello Theme</audio>
+        <p> <i>Dr_Sunshine_Is_Dead</i></p>
+        <audio src="Will_Wood_and_the_Tapeworms_-_Dr_Sunshine_Is_Dead_(musmore.com).mp3" controls></audio>
+
+    </div>
+    <div style="display: flex; flex-direction: column; align-items: center; font-family: 'Times New Roman';">
+        <h1><i></i></h1>
+        <video width="640" height="360" src="Will Wood - Euthanasia [Official Video].mp4" controls>  </video> 
+        
+    </div>
+</div>
+
+<div>
+<table border="1">
+    <tr>
+        <td rowspan="2">Предметы</td>
+        <td colspan="2">Тестирование</td>
+        <td colspan="3">ТКиОК</td>
+        <td colspan="2">КПиЯП</td>
+   </tr>
+   <tr>
+    <th colspan="2">7</th><th colspan="3">8</th><th colspan="2">5</th>
+   </tr>
+   <tr align="center">
+    <td>Заинтерисованность</td>
+    <td colspan="2">Да</td><td colspan="3">Да</td><td colspan="2">Не особо</td>
+   </tr>
+</table>
+<form class="guruweba_example_form" name="feedback" method="POST" action="/feedback.php">
+  <div class="guruweba_example_caption">Обратная связь</div>
+  <div class="guruweba_example_infofield">Тема обращения</div>
+  <select name="theme" required="required">
+    <option value="">Выберите вариант</option>
+    <option>Вопрос по работе страницы</option>
+    <option>Вопрос о какой-либо песне</option>
+    <option>Пожелания / предложения в улучшении страницы</option>
+  </select>
+  <div>Ваше имя</div>
+  <input type="text" name="name" required="required">
+  <div>Ваш email</div>
+  <input type="email" name="email" required="required">
+  <div>Сообщение</div>
+    <textarea name="message"></textarea>
+    <input type="submit" name="submit_btn" value="Отправить"><br>
+  </div>
+    <a href = "https://m.vk.com/id338899311" target="_blank">Мой ВК</a><br>
+    <a href="#top">Наверх</a></br>
+</form>
+    </Body>
+</html>
